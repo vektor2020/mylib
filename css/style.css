@@ -151,6 +151,7 @@ body {
 	box-shadow: 0 4px 10px 0 rgba(79, 88, 178, 0.25);
 	background-color: white;
 	padding: 32px;
+	border-radius: 8px;
 }
 .container-box-big {
 	height: 240px;
@@ -159,6 +160,7 @@ body {
 	padding: 32px;
 	background-color: white;
 	margin-top: 48px;
+	border-radius: 8px;
 }
 .box-mark {
 	background: #6a75ca;
@@ -175,11 +177,10 @@ body {
 	line-height: 2;
 	text-transform: uppercase;
 }
-.sitebar-nav {
-	position: relative;
-}
+
 .sitebar-list {
 	margin: 16px 0 0;
+	position: relative;
 }
 .sitebar-link {
 	color: #fff;
@@ -208,6 +209,8 @@ body {
 	display: flex;
 	padding: 32px;
 	align-items: center;
+	border-radius: 8px;
+	height: 127px;
 }
 .content-container-text {
 	line-height: 1.31;
@@ -265,11 +268,20 @@ body {
 	height: 100%;
 	border-radius: 8px;
 	color: #7d868e;
+
+	padding: 48px;
+	overflow: auto;
+}
+.language {
+	font-family: Courier;
+	font-size: 16px;
+	line-height: 1.31;
+	color: #7d868e;
 }
 .nav {
 	background: #000;
 	padding: 2px 60px;
-	margin: 61px 0 59px;
+	margin: 30px 0 59px;
 }
 .nav-list {
 	text-align: right;
